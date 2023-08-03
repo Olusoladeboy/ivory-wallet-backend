@@ -1,7 +1,7 @@
 import {
     Entity, PrimaryGeneratedColumn,
     Column, BaseEntity, CreateDateColumn,
-    UpdateDateColumn, DeleteDateColumn, BeforeInsert, OneToOne, JoinColumn
+    UpdateDateColumn, DeleteDateColumn, BeforeInsert, OneToOne, JoinColumn,
 } from "typeorm"
 import { UserEnitity } from "../user/user.entity";
 
@@ -13,6 +13,7 @@ export class TransactionsEntity extends BaseEntity {
 
     @Column({
         type: "integer",
+
     })
     amount: number
 
@@ -29,7 +30,7 @@ export class TransactionsEntity extends BaseEntity {
     status: string;
 
     @Column({ nullable: true })
-    userToId: string;
+    userToId: number;
 
     @Column()
     reference: string

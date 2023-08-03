@@ -27,9 +27,9 @@ export class UserEnitity extends BaseEntity {
     @Column({ nullable: true })
     invitedById: number
 
-    @OneToOne(() => AdminEntity, { cascade: true })
-    @JoinColumn({ name: 'invitedById' })
-    invitedBy: AdminEntity;
+    // @OneToOne(() => AdminEntity, { cascade: true })
+    // @JoinColumn({ name: 'invitedById' })
+    // invitedBy: AdminEntity;
 
     // @BeforeInsert()
     // async hashPassword() {

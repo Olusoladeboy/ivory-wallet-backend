@@ -6,11 +6,11 @@
   "types": "./types/global.d.ts",
   "scripts": {
     "start": "nodemon index.js",
-    "build": "npm run lint && tsc -p .",
+    "build": "tsc -p .",
     "start:local": "npm run lint && NODE_ENV=local nodemon index.js",
     "start:test": "npm run lint && NODE_ENV=test node build/server.js",
     "start:staging": "npm run lint && NODE_ENV=staging node build/server.js",
-    "start:production": "npm run lint && NODE_ENV=production node build/server.js",
+    "start:production": "npm run lint && NODE_ENV=production node build/src/server.js",
     "lint": "eslint src/**/*.ts",
     "lint-fix": "eslint --fix src/**/*.ts",
     "pretty": "prettier --write \"src/**/*.ts\"",

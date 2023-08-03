@@ -238,3 +238,56 @@
 {"level":"info","message":"Listening on :::3000"}
 {"level":"info","message":"Postgres DB connection successful"}
 {"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"AppDataSource error"}
+{"level":"error","message":"Error"}
+{"level":"error","message":"read ETIMEDOUT"}
+{"level":"error","message":"Error: read ETIMEDOUT\n    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
