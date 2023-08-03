@@ -291,3 +291,13 @@
 {"level":"info","message":"Listening on :::3000"}
 {"level":"info","message":"Postgres DB connection successful"}
 {"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"AppDataSource error"}
+{"level":"error","message":"QueryFailedError"}
+{"level":"error","message":"could not create unique index \"UQ_01f9375efded3a7783162180430\""}
+{"level":"error","message":"QueryFailedError: could not create unique index \"UQ_01f9375efded3a7783162180430\"\n    at PostgresQueryRunner.query (/Users/user/dev/ivorypay-assessment/assessment-two/backend/node_modules/typeorm/driver/postgres/PostgresQueryRunner.js:211:19)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at async PostgresQueryRunner.executeQueries (/Users/user/dev/ivorypay-assessment/assessment-two/backend/node_modules/typeorm/query-runner/BaseQueryRunner.js:424:13)\n    at async PostgresQueryRunner.changeColumn (/Users/user/dev/ivorypay-assessment/assessment-two/backend/node_modules/typeorm/driver/postgres/PostgresQueryRunner.js:1083:9)\n    at async PostgresQueryRunner.changeColumns (/Users/user/dev/ivorypay-assessment/assessment-two/backend/node_modules/typeorm/driver/postgres/PostgresQueryRunner.js:1091:13)\n    at async RdbmsSchemaBuilder.updateExistColumns (/Users/user/dev/ivorypay-assessment/assessment-two/backend/node_modules/typeorm/schema-builder/RdbmsSchemaBuilder.js:621:13)\n    at async RdbmsSchemaBuilder.executeSchemaSyncOperationsInProperOrder (/Users/user/dev/ivorypay-assessment/assessment-two/backend/node_modules/typeorm/schema-builder/RdbmsSchemaBuilder.js:170:9)\n    at async RdbmsSchemaBuilder.build (/Users/user/dev/ivorypay-assessment/assessment-two/backend/node_modules/typeorm/schema-builder/RdbmsSchemaBuilder.js:66:13)\n    at async DataSource.synchronize (/Users/user/dev/ivorypay-assessment/assessment-two/backend/node_modules/typeorm/data-source/DataSource.js:208:9)\n    at async DataSource.initialize (/Users/user/dev/ivorypay-assessment/assessment-two/backend/node_modules/typeorm/data-source/DataSource.js:153:17)"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}

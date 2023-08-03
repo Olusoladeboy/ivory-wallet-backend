@@ -87,26 +87,31 @@ class Environment implements IEnvironment {
   public setEnvironment(env: string): void {
     let envPath: string;
     const rootdir: string = path.resolve(__dirname, '../../');
-    switch (env) {
-      case Environments.PRODUCTION:
-        envPath = path.resolve(rootdir, EnvironmentFile.PRODUCTION);
-        break;
-      case Environments.TEST:
-        envPath = path.resolve(rootdir, EnvironmentFile.TEST);
-        break;
-      case Environments.STAGING:
-        envPath = path.resolve(rootdir, EnvironmentFile.STAGING);
-        break;
-      case Environments.LOCAL:
-        envPath = path.resolve(rootdir, EnvironmentFile.LOCAL);
-        break;
-      default:
-        envPath = path.resolve(rootdir, EnvironmentFile.LOCAL);
+    if (this.getCurrentEnvironment() !== Environments.PRODUCTION) {
+      switch (env) {
+        case Environments.PRODUCTION:
+          envPath = path.resolve(rootdir, EnvironmentFile.PRODUCTION);
+          break;
+        case Environments.TEST:
+          envPath = path.resolve(rootdir, EnvironmentFile.TEST);
+          break;
+        case Environments.STAGING:
+          envPath = path.resolve(rootdir, EnvironmentFile.STAGING);
+          break;
+        case Environments.LOCAL:
+          envPath = path.resolve(rootdir, EnvironmentFile.LOCAL);
+          break;
+        default:
+          envPath = path.resolve(rootdir, EnvironmentFile.LOCAL);
+      }
+      if (!fs.existsSync(envPath)) {
+        throw new Error('.env file is missing in root directory');
+      }
+      configDotenv({ path: envPath });
+    } else {
+      configDotenv();
     }
-    if (!fs.existsSync(envPath)) {
-      throw new Error('.env file is missing in root directory');
-    }
-    configDotenv({ path: envPath });
+
   }
 
   public isProductionEnvironment(): boolean {
