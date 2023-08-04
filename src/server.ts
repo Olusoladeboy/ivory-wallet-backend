@@ -6,6 +6,7 @@ import Environment from './environments/environment';
 import { setGlobalEnvironment } from './global';
 import logger from './lib/logger';
 import { AppDataSource } from './data-source';
+import helmet from 'helmet';
 
 const env: Environment = new Environment();
 setGlobalEnvironment(env);
@@ -34,7 +35,7 @@ AppDataSource.initialize().then(async () => {
 
     app.init().then(() => {
         app.express.set('port', env.port);
-        app.express.use(cors(corsOptions));
+
 
         server = app.httpServer; // http.createServer(App);
         server.on('error', serverError);

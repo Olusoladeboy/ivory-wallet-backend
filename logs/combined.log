@@ -305,3 +305,47 @@
 {"level":"info","message":"Listening on :::3000"}
 {"level":"info","message":"Postgres DB connection successful"}
 {"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"AppDataSource error"}
+{"level":"error","message":"Error"}
+{"level":"error","message":"getaddrinfo ENOTFOUND roovasstagingdb.cuzjlcl29nhs.us-west-2.rds.amazonaws.com"}
+{"level":"error","message":"Error: getaddrinfo ENOTFOUND roovasstagingdb.cuzjlcl29nhs.us-west-2.rds.amazonaws.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
+{"level":"info","message":"AppDataSource error"}
+{"level":"error","message":"Error"}
+{"level":"error","message":"getaddrinfo ENOTFOUND roovasstagingdb.cuzjlcl29nhs.us-west-2.rds.amazonaws.com"}
+{"level":"error","message":"Error: getaddrinfo ENOTFOUND roovasstagingdb.cuzjlcl29nhs.us-west-2.rds.amazonaws.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)"}
+{"level":"info","message":"AppDataSource error"}
+{"level":"error","message":"Error"}
+{"level":"error","message":"getaddrinfo ENOTFOUND roovasstagingdb.cuzjlcl29nhs.us-west-2.rds.amazonaws.com"}
+{"level":"error","message":"Error: getaddrinfo ENOTFOUND roovasstagingdb.cuzjlcl29nhs.us-west-2.rds.amazonaws.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)"}
+{"level":"info","message":"AppDataSource error"}
+{"level":"error","message":"Error"}
+{"level":"error","message":"getaddrinfo ENOTFOUND roovasstagingdb.cuzjlcl29nhs.us-west-2.rds.amazonaws.com"}
+{"level":"error","message":"Error: getaddrinfo ENOTFOUND roovasstagingdb.cuzjlcl29nhs.us-west-2.rds.amazonaws.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)"}
+{"level":"info","message":"AppDataSource error"}
+{"level":"error","message":"Error"}
+{"level":"error","message":"getaddrinfo ENOTFOUND roovasstagingdb.cuzjlcl29nhs.us-west-2.rds.amazonaws.com"}
+{"level":"error","message":"Error: getaddrinfo ENOTFOUND roovasstagingdb.cuzjlcl29nhs.us-west-2.rds.amazonaws.com\n    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)"}
+{"level":"info","message":"Postgres DB connection successful"}
+{"level":"info","message":"Listening on :::3000"}
