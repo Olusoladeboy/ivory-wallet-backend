@@ -1,5 +1,6 @@
 import * as http from 'http';
 import { AddressInfo } from 'net';
+import cors from "cors";
 import App from './App';
 import Environment from './environments/environment';
 import { setGlobalEnvironment } from './global';
@@ -11,6 +12,8 @@ setGlobalEnvironment(env);
 
 const app: App = new App();
 let server: http.Server;
+
+const corsOptions = { origin: "*", optionsSuccessStatus: 200 };
 
 function serverError(error: NodeJS.ErrnoException): void {
     if (error.syscall !== 'listen') {
@@ -31,6 +34,7 @@ AppDataSource.initialize().then(async () => {
 
     app.init().then(() => {
         app.express.set('port', env.port);
+        app.express.use(cors(corsOptions));
 
         server = app.httpServer; // http.createServer(App);
         server.on('error', serverError);
